@@ -1,5 +1,6 @@
+# Hello i'm Juan also known as Fumoctl
 
-# Sysadmin · Business Informatics student
+**Sysadmin · Business Informatics student**
 
 📍 Argentina
 
@@ -17,7 +18,7 @@
 
 - 🎓 Studying Business Informatics
 - 🐳 Learning Docker, CI/CD, and cloud deployment
-- ⚙️ Automating my homelab with NixOS
+- ⚙️ Declaring my homelab with NixOS
 
 ***
 
