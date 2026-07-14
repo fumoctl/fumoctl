@@ -30,4 +30,4 @@
 
 ### 📫 Find me
 
-[fumoctl.com](https://fumoctl.com) · [X](https://x.com/Fumoctl) · [YouTube](https://youtube.com/@Fumoctl)
+[fumoctl.com](https://fumoctl.com) · [Email](mailto:juanu@fumoctl.com) · [X](https://x.com/Fumoctl) · [YouTube](https://youtube.com/@Fumoctl) · [LinkedIn](https://www.linkedin.com/in/fumoctl)
