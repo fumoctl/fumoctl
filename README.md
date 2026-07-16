@@ -23,8 +23,8 @@
 ***
 
 <p>
-  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&show_icons=true&hide_border=true&theme=dark" width="56.25%"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=fumoctl&layout=compact&langs_count=6&hide_border=true&theme=dark" width="42.75%"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&theme=transparent" width="54.14%"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=fumoctl&layout=compact&langs_count=6&theme=transparent" width="42.75%"/>
 </p>
 
 ***
