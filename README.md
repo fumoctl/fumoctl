@@ -18,12 +18,12 @@
 
 - 🎓 Studying Business Informatics
 - 🐳 Learning Docker, CI/CD, and cloud deployment
-- ⚙️ Declaring my homelab with NixOS
+- ⚙️ Managing my homelab declaratively with NixOS
 
 ***
 
 <p>
-  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&theme=transparent" width="54.14%"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&hide_rank=true&show_icons=true&theme=transparent" width="36.58%"/>
   <img src="https://github-stats-extended.vercel.app/api/top-langs?username=fumoctl&layout=compact&langs_count=6&theme=transparent" width="42.75%"/>
 </p>
 
