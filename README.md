@@ -1,4 +1,4 @@
-# Hello i'm Juan also known as Fumoctl
+# Hi, I'm Juan (fumoctl)
 
 **Sysadmin · Business Informatics student**
 
