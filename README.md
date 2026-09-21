@@ -23,7 +23,7 @@
 ***
 
 <p>
-  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&hide_rank=true&show_icons=true&theme=transparent" width="36.58%"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&hide_rank=true&show_icons=true&theme=transparent" width="36.534%"/>
   <img src="https://github-stats-extended.vercel.app/api/top-langs?username=fumoctl&layout=compact&langs_count=6&theme=transparent" width="42.75%"/>
 </p>
 
