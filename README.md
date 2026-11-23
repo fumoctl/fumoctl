@@ -22,9 +22,16 @@
 
 ***
 
-<p>
-  <img src="https://github-stats-extended.vercel.app/api?username=fumoctl&custom_title=Fumoctl's%20GitHub%20Stats&hide_rank=true&show_icons=true&theme=transparent" width="36.56%"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=fumoctl&layout=compact&langs_count=6&theme=transparent" width="42.75%"/>
+### 📊 GitHub Metrics
+
+<p align="center">
+  <img src="metrics/overview.svg" alt="GitHub overview, lines of code, and notable contributions" />
+</p>
+<p align="center">
+  <img src="metrics/languages.svg" alt="Most used languages" />
+</p>
+<p align="center">
+  <img src="metrics/activity.svg" alt="Isometric contribution calendar" />
 </p>
 
 ***
