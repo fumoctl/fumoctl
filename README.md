@@ -25,13 +25,13 @@
 ### 📊 GitHub Metrics
 
 <p align="center">
-  <img src="metrics/overview.svg" alt="GitHub overview, lines of code, and notable contributions" />
+  <img src="metrics/overview.svg" alt="GitHub overview, lines of code, and notable contributions" width="85%" />
 </p>
 <p align="center">
-  <img src="metrics/languages.svg" alt="Most used languages" />
+  <img src="metrics/languages.svg" alt="Most used languages" width="85%" />
 </p>
 <p align="center">
-  <img src="metrics/activity.svg" alt="Isometric contribution calendar" />
+  <img src="metrics/activity.svg" alt="Isometric contribution calendar" width="85%" />
 </p>
 
 ***
