@@ -13,9 +13,23 @@ jobs:
     permissions:
       contents: write
     steps:
+      # shortcut: patches v3.34 image for lowlighter/metrics#1843, remove if upstream releases a fix
+      - name: Patch lowlighter/metrics lines plugin
+        run: |
+          docker build -t metrics:3.34.0 - <<'EOF'
+          FROM ghcr.io/lowlighter/metrics:v3.34
+          RUN sed -i 's/if (data\.account)/if (data.account === "organization")/; s/contributor\.author\.login/(contributor.author?.login ?? "ghost")/' /metrics/source/plugins/lines/index.mjs \
+           && sed -i 's/((plugins\.lines\.sections\.includes/((plugins.lines.error)||(plugins.lines.sections?.includes/; s/plugins\.lines\.sections\.includes/plugins.lines.sections?.includes/g' /metrics/source/templates/classic/partials/lines.ejs \
+           && grep -q 'data.account === "organization"' /metrics/source/plugins/lines/index.mjs \
+           && grep -q 'contributor.author?.login' /metrics/source/plugins/lines/index.mjs \
+           && grep -q 'plugins.lines.error' /metrics/source/templates/classic/partials/lines.ejs \
+           && node --check /metrics/source/plugins/lines/index.mjs
+          EOF
+
       - name: Generate overview, lines & notable contributions
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
+          use_prebuilt_image: no
           filename: metrics/overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -30,8 +44,9 @@ jobs:
           plugin_notable_from: all
 
       - name: Generate languages breakdown
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
+          use_prebuilt_image: no
           filename: metrics/languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,8 +63,9 @@ jobs:
           plugin_languages_threshold: 2%
 
       - name: Generate isometric calendar
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
+          use_prebuilt_image: no
           filename: metrics/activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
